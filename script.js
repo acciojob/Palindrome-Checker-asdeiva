@@ -4,10 +4,10 @@ function palindrome(str){
 	let splitString = str.split("");
 	let reverseArray = splitString.reverse();
 	let str2 = reverseArray.join("");
-	let flag = false;
+	let message = false;
 	if(str == str2){
-		flag = true;
+		message = true;
 	}
-	return flag;
+	return message;
 }
 module.exports = palindrome
